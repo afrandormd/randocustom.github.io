@@ -1,0 +1,172 @@
+<html>
+  <head>
+    <title>Gallery</title>
+    <!-- import file eksternal.css -->
+    <link rel="stylesheet" type="text/css" href="eksternal.css" />
+    <!-- tag meta untuk responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- buat favicon -->
+    <link rel="icon" type="image/png" sizes="64x64" href="ext/logo.png" />
+  </head>
+  <body>
+    <!-- buat area header -->
+    <div class="header">
+      <img class="logo" src="ext/logo.png" alt="logo">
+    </div>
+    <!-- buat area menu -->
+    <div class="navigation">
+      <button class="tombol" onclick="home()">Home</button>
+      <button class="tombol" onclick="category()">Category</button>
+      <button class="tombol" onclick="aboutus()">About US</button>
+    </div>
+    <!-- buat area content -->
+    <div class="content">
+      <!-- area content (side) -->
+      <div class="side">
+          <font color="#4c5258"><h2 align="center">Berita Terkini</h2></font>
+        <!-- area garis -->
+        <div class="garis"></div>
+
+        <!-- area logo -->
+        <div class="logo">
+          <img src="ext/foto2.jpeg" width="100" />
+        </div>
+        <!-- area text -->
+        <div class="text">
+          <p align="left">Trend motor custom 2023 yang mulai ramai di kalangan masyarakat</p>
+        </div>
+        <!-- area garis -->
+        <div class="garis"></div>
+
+        <!-- area logo -->
+        <div class="logo">
+          <img src="ext/foto1.jpeg" width="100" />
+        </div>
+        <!-- area text -->
+        <div class="text">
+          <p align="left">Pak jokowi presiden republik indonesia mempunyai motor custom berjenis chopper bobber</p>
+        </div>
+        <!-- area garis -->
+        <div class="garis"></div>
+        <!-- area logo -->
+        <div class="logo">
+          <img src="ext/foto2.jpeg" width="100" />
+        </div>
+        <!-- area text -->
+        <div class="text">
+          <p align="left">Pak jokowi presiden republik indonesia mempunyai motor custom berjenis chopper bobber</p>
+        </div>
+        <!-- area garis -->
+        <div class="garis"></div>
+        <!-- area logo -->
+        <div class="logo">
+          <img src="ext/foto1.jpeg" width="100" />
+        </div>
+        <!-- area text -->
+        <div class="text">
+          <p align="left">Pak jokowi presiden republik indonesia mempunyai motor custom berjenis chopper bobber</p>
+        </div>
+        <!-- area garis -->
+        <div class="garis"></div>
+        <!-- area logo -->
+        <div class="logo">
+          <img src="ext/foto2.jpeg" width="100" />
+        </div>
+        <!-- area text -->
+        <div class="text">
+          <p align="left">Pak jokowi presiden republik indonesia mempunyai motor custom berjenis chopper bobber</p>
+        </div>
+        <!-- area garis -->
+        <div class="garis"></div>
+      </div>
+      <!-- area content (main) -->
+      <div class="main">
+       <h1 algin="center">Gallery motor <font color="#cbb58d">HoldFastCycles</font></h1><br>
+        <div class="gallery">
+          <!-- card container -->
+          <div class="card-container">
+          <!-- card -->
+          <div class="card">
+            <img src="ext/streetcub.jpg" alt="motor custom">
+            <div class="card-content">
+              <h2>Custom Streetcub</h2>
+              <span class="category">Category: Streetcub</span>
+            </div>
+          </div>
+          <!-- end card -->
+          <!-- card -->
+          <div class="card">
+            <img src="ext/banner1.jpeg" alt="motor custom">
+            <div class="card-content">
+              <h2>Custom Japstyle</h2>
+              <span class="category">Motor: Yamaha Scorpio</span>
+            </div>
+          </div>
+          <!-- end card -->
+          <!-- card -->
+          <div class="card">
+            <img src="ext/bobber.jpg" alt="motor custom">
+            <div class="card-content">
+              <h2>Custom Bobber</h2>
+              <span class="category">Category: Bobber</span>
+            </div>
+          </div>
+          <!-- end card -->
+          <!-- card -->
+          <div class="card">
+            <img src="ext/cafferacer.jpg" alt="motor custom">
+            <div class="card-content">
+              <h2>Custom Cafe Racer</h2>
+              <span class="category">Category: Cafe Racer</span>
+            </div>
+          </div>
+          <!-- end card -->
+          <!-- card -->
+          <div class="card">
+            <img src="ext/bratstyle.jpg" alt="motor custom">
+            <div class="card-content">
+              <h2>Custom Brat Style</h2>
+              <span class="category">Category: Brat Style</span>
+            </div>
+          </div>
+          <!-- end card -->
+          <!-- card -->
+          <div class="card">
+            <img src="ext/chopper.jpg" alt="motor custom">
+            <div class="card-content">
+              <h2>Custom Chopper</h2>
+              <span class="category">Category: Chopper</span>
+            </div>
+          </div>
+          <!-- end card -->
+          </div>
+          <!-- end card container -->
+        </div>
+      </div>
+      <!-- end content -->
+    </div>
+    <!-- buat area footer -->
+    <div class="footer">HoldFastCycles (Copyright &copy; 2020)</div>
+    <!-- fungsi js -->
+    <script>
+      // fungsi untuk tombol home
+      function home() {
+        //alihkan ke halaman home
+        location.href = "home.html";
+      }
+      // fungsi ke halaman category
+      function category() {
+        // window.open("profil.html");
+        location.href = "category.html";
+      }
+      // fungsi ke halaman gallery
+      function gallery() {
+        location.href = "gallery.html"
+      }
+      // fungsi ke halaman about us
+      function aboutus() {
+        location.href = "aboutus.html"
+      }
+    </script>
+  </body>
+</html>
